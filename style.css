@@ -1,4 +1,95 @@
+/*===============================================================
+    Template Name : Eating Express Template.
+    Tamplate Url :
+    Description : An Awesome Dish Template.
+    Author : MD Ismail Hossen (Ratul).
+    Author Url : https://ismailratul.com
+    Verson : 1.0
+    Support : ismailratul7@gmail.com
+=================================================================*/
+/*===============================================================
+        CSS INDEX
+        =========
+        1. COMMON CSS.
+        2. Hero Section..
+        3. About Section.
+        4. Recipie Section.
+        5. 
+=================================================================*/
+/*========================================================================
+        1. COMMON CSS
+===========================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 *{
     padding: 0;
     margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1{
+    font-size: 60px;
+    color: #575757;
+}
+h2{
+    font-size: 40px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 30px;
+}
+/*===========2.Hero Section==========*/
+.color{
+    color: orange;
+}
+.flexiable-container{
+    display: flex;
+    
+}
+.hero-content {
+    margin: auto;
+   
+}
+.hero-content h1{
+    margin-bottom: 10px;
+}
+
+.row{
+    width: 60%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.hero-area{
+    background-color: #FFEDF9;
+}
+.btn{
+    text-decoration: none;
+        padding: 15px 30px;
+        color: #fff;
+        border-radius: 25px;
+        background-image: linear-gradient(orange, tomato);
+        text-transform: uppercase;
+        font-weight: 400;
+       
+}
+/*===========3.About Section==========*/
+#about{
+    background-image: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+}
+.about-image img{
+    width: 50%;
+}
+.about-container {
+    margin: auto;
+}
+.about-container p{
+    margin-bottom: 100px;
+}
+/*===========4.Recipie Section==========*/
