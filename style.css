@@ -14,7 +14,8 @@
         2. Hero Section..
         3. About Section.
         4. Recipie Section.
-        5. 
+        5. Counter Section.
+        6. Footer Section.
 =================================================================*/
 /*========================================================================
         1. COMMON CSS
@@ -80,8 +81,8 @@ p{
 }
 /*===========3.About Section==========*/
 #about{
-    background-image: url(images/Frame\ 56.jpg);
-    background-repeat: no-repeat;
+    background-color: #F1F0FE;
+    margin-bottom: 80px;
 }
 .about-image img{
     width: 50%;
@@ -93,3 +94,75 @@ p{
     margin-bottom: 100px;
 }
 /*===========4.Recipie Section==========*/
+.recipie-heading{
+    text-align: center;
+    margin-bottom: 20px;
+   margin-top: 50px;
+}
+.recipie-container{
+    display: flex;
+    width: 100%;
+   
+}
+.recipie-item img{
+    width: 500px;
+    height: 300px;
+}
+.recipie-item {
+   
+    margin: 30px;
+    margin-bottom: 100px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.recipie-item h3{
+    padding: 20px 0;
+}
+#item1{
+    border-left: 5px solid orange;
+    
+}
+#item2 {
+    border-left: 5px solid blue;
+    
+}
+#item3{
+    border-left: 5px solid #FE4B2F;
+}
+/*===========4.Counter Section==========*/
+.simple-counter{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+.simple-counter h2{
+    color: #000;
+}
+.youtube{
+    flex: 1 1 auto;
+}
+.instagram {
+    flex: 1 1 auto;
+}
+.twitter {
+    flex: 1 1 auto;
+}
+/*===========4.Footer Section==========*/
+footer{
+    background-color: #000;
+    height: 250px;
+    text-align: center;
+    padding: 40px;
+}
+footer h2{
+    margin-top: 20px;
+}
+footer p{
+    color: #fff;
+}
